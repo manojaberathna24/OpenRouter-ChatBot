@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot - Gaming Mode</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="chat-container">
+    <div class="powered-by">Powered by Manoj Aberathna</div>
+    <h1> AI CHATBOT </h1>
+    <div id="chatbox" class="chatbox"></div>
+
+    <div class="input-area">
+        <button id="cameraBtn">📸 Capture Image</button>
+        <input type="file" id="fileInput" multiple>
+        <input type="text" id="userInput" placeholder="Enter your command..." autocomplete="off">
+        <button id="sendBtn">⚔ Send</button>
+    </div>
+
+    <!-- Camera modal -->
+    <div id="cameraModal" class="camera-modal">
+        <video id="videoPreview" autoplay playsinline></video>
+        <button id="snapBtn">Capture</button>
+        <button id="sendCaptureBtn">Send</button>
+        <button id="closeCameraBtn">Close</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
