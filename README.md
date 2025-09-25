@@ -2,18 +2,18 @@ OpenRouter AI Chatbot
 
 A modern AI-powered chatbot built with Flask + JavaScript, featuring:
 
-📂 Upload entire folders (desktop + mobile)
+ Upload entire folders (desktop + mobile)
 
-📸 Capture images directly from your camera
+ Capture images directly from your camera
 
-🎮 Gamer-style dangerous UI with neon effects
+ Gamer-style dangerous UI with neon effects
 
-🧠 Powered by OpenRouter AI API
-
-
+ Powered by OpenRouter AI API
 
 
-🚀 Quick Start
+
+
+ Quick Start
 # 1. Clone repo
 git clone https://github.com/manojaberathna24/OpenRouter-ChatBot.git
 cd OpenRouter-ChatBot
